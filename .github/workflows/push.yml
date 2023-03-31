@@ -56,11 +56,11 @@ jobs:
         run: echo 'ok'
 
       - name: Upload to minelabs.be
-        if: matrix.branch == buildserver
+        if: matrix.branch == 'buildserver'
         run: echo 'ok'
 
       - name: Upload to testserver.minelabs.be
-        if: matrix.branch == testserver
+        if: matrix.branch == 'testserver'
         run: echo 'ok'
 
 
