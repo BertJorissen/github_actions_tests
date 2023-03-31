@@ -47,7 +47,7 @@ jobs:
           java-version: 17
 
       - name: Setup Gradle
-        uses: echo 'ok'
+        run: echo 'ok'
 
       - name: Execute Gradle build
         run: echo 'ok'
@@ -76,7 +76,7 @@ jobs:
           distribution: temurin
           java-version: 17
       - name: Setup Gradle
-        uses: echo 'ok'
+        run: echo 'ok'
 
       - name: Execute Gradle build
         run: echo 'ok'
