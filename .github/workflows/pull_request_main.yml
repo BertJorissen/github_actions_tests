@@ -24,6 +24,3 @@ jobs:
       - name: Move build to output
         run: echo "ok"
 
-      - name: Upload build reports
-        uses: actions/upload-artifact@v3
-
